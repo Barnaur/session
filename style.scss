@@ -1058,9 +1058,13 @@ $margin2: 0 0 0 50px;
             color: white;
         }
     }
-@media (max-width: 1345px) {
+@media (max-width: 1347px) {
     .navigating_logo {
         justify-content: center;
+        .navigating_logo_top,
+        .navigating_logo_bottom{
+            gap: clamp(1px, 19vw, 378px);;
+        }
     }
 }
 @media (max-width: 1240px) {
@@ -1127,6 +1131,7 @@ $margin2: 0 0 0 50px;
         gap: 20px;
         background: none;
         border-radius: 0;
+        margin: 80px 0 0 100px;
         .line{
             display: none;
         }
@@ -1136,9 +1141,10 @@ $margin2: 0 0 0 50px;
             padding: 42px 50px;
         }
         .studies_table_middle{
-            border-radius: 45px 0 0 45px;
             background: $color1;
             padding: 42px 50px;
+            border-radius: 45px;
+           
         
         }
         .studies_table_right{
