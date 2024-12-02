@@ -593,6 +593,7 @@
 
 .studies_table {
   overflow: hidden;
+  overflow-x: auto;
   margin: 80px 100px 0 100px;
   display: grid;
   grid-template-columns: 410px 1px 412px 1px 410px;
@@ -601,12 +602,18 @@
   border-radius: 45px;
 }
 .studies_table .studies_table_left {
+  display: inline-block;
+  vertical-align: top;
   padding: 70px 64px 93px 60px;
 }
 .studies_table .studies_table_middle {
   padding: 70px 64px 93px 64px;
+  display: inline-block;
+  vertical-align: top;
 }
 .studies_table .studies_table_right {
+  display: inline-block;
+  vertical-align: top;
   padding: 70px 64px 70px 60px;
 }
 
